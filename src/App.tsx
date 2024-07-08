@@ -34,7 +34,6 @@ function App() {
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
 
   const openGallery = () => {
-    console.log(1);
     setIsGalleryOpen(true);
   };
 
